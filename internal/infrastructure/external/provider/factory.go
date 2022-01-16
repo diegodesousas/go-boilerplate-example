@@ -3,9 +3,9 @@ package provider
 import (
 	"errors"
 
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/external/provider/clearsale"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/external/provider/konduto"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/external/provider/clearsale"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/external/provider/konduto"
 )
 
 var ErrProviderNotAvailable = errors.New("provider not available")

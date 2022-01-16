@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/external/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/http/handlers/analyse"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/http/server"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue/rabbitmq/publisher"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/external/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/http/handlers/analyse"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/http/server"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue/rabbitmq/publisher"
 	"github.com/spf13/viper"
 )
 

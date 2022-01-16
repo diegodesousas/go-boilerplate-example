@@ -1,8 +1,8 @@
 package analysis
 
 import (
-	"github.com/diegodesousas/go-boilerplate-example/domain/order"
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/order"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
 	"github.com/google/uuid"
 )
 

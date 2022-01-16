@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue"
 )
 
 type Publisher struct{}

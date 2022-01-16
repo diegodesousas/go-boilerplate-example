@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/external/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue/handlers/analyse"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue/rabbitmq/consumer"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue/rabbitmq/publisher"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/external/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue/handlers/analyse"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue/rabbitmq/consumer"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue/rabbitmq/publisher"
 	"github.com/spf13/viper"
 )
 

@@ -3,8 +3,8 @@ package analyse
 import (
 	"context"
 
-	"github.com/diegodesousas/go-boilerplate-example/domain/analysis"
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/analysis"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
 )
 
 type Analyse func(ctx context.Context, a analysis.Analysis) (provider.Result, error)

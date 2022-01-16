@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 
-	"github.com/diegodesousas/go-boilerplate-example/domain/order"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/order"
 )
 
 type Type string

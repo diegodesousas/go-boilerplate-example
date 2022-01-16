@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/diegodesousas/go-boilerplate-example/application/analyse"
-	"github.com/diegodesousas/go-boilerplate-example/domain/analysis"
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue"
+	"github.com/diegodesousas/go-boilerplate-example/internal/application/analyse"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/analysis"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue"
 )
 
 func Analyse(factory provider.Factory, publisher queue.Publisher) queue.Handler {

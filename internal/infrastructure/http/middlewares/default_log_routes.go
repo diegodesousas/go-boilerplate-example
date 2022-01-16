@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/logger"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/logger"
 )
 
 func LogRouteMiddleware(next http.Handler) http.Handler {

@@ -3,9 +3,9 @@ package konduto
 import (
 	"context"
 
-	"github.com/diegodesousas/go-boilerplate-example/domain/order"
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/logger"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/order"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/logger"
 )
 
 var TYPE provider.Type = "konduto"

@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/http/middlewares"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/http/middlewares"
 	"github.com/julienschmidt/httprouter"
 	"github.com/spf13/viper"
 )

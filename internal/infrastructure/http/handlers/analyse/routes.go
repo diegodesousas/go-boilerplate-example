@@ -3,9 +3,9 @@ package analyse
 import (
 	"net/http"
 
-	"github.com/diegodesousas/go-boilerplate-example/domain/provider"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/http/server"
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue"
+	"github.com/diegodesousas/go-boilerplate-example/internal/domain/provider"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/http/server"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue"
 )
 
 func Routes(factory provider.Factory, publisher queue.Publisher) server.Config {

@@ -3,7 +3,7 @@ package consumer
 import (
 	"context"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/queue"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/queue"
 )
 
 type Consumer struct {

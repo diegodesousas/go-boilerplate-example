@@ -3,7 +3,7 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/diegodesousas/go-boilerplate-example/infrastructure/logger"
+	"github.com/diegodesousas/go-boilerplate-example/internal/infrastructure/logger"
 )
 
 func Logger(next http.Handler) http.Handler {
